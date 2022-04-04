@@ -19,9 +19,9 @@ function App() {
     console.log(data.allGiftCards)
   }
   return (
-    <div className="App grid grid-cols-4 gap-4 bg-slate-400">
+    <div className="App grid grid-cols-4 md:grid-cols-2 gap-4 bg-slate-400">
       {gitftcards.map((item) => (
-        <div className='w-1/5 m-4' key={item.id}>
+        <div className='w-1/5 m-4 md:m-8' key={item.id}>
           <Card sx={{ minWidth: 275 }}>
             <CardContent>
               <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
