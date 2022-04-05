@@ -21,6 +21,13 @@
     .App{
         display: grid;
         grid-template-columns: 1fr;
-        padding-left: 13%;
+        padding-left: 12%;
+    }
+  }
+  @media screen and (max-width: 405px) {
+    .App{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 5%;
     }
   }

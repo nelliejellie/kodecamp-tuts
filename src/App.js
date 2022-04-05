@@ -9,6 +9,7 @@ function App() {
   const [gitftcards, setGiftcards] = useState([])
 
   useEffect(()=>{
+    console.log()
     getGiftCards()
   },[])
 
