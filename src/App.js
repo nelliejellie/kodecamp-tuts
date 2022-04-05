@@ -1,5 +1,6 @@
 import './App.css';
 import React, {useState, useEffect} from 'react';
+import "./db.json"
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
@@ -7,7 +8,8 @@ import Typography from '@mui/material/Typography';
 
 function App() {
   const [gitftcards, setGiftcards] = useState([])
-
+  const allGiftCards = require("./db.json");
+  console.log(allGiftCards.allGiftCards)
   useEffect(()=>{
     console.log()
     getGiftCards()
@@ -21,7 +23,7 @@ function App() {
   }
   return (
     <div className="App grid grid-cols-4 md:grid-cols-2 gap-4 bg-slate-400">
-      {gitftcards.map((item) => (
+      {allGiftCards.allGiftCards.map((item) => (
         <div className='w-1/5 m-4 md:m-8' key={item.id}>
           <Card sx={{ minWidth: 275 }}>
             <CardContent>
