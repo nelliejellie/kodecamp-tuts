@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kodecamp-tuts/static/css/main.7450c575.css",
+    "main.js": "/kodecamp-tuts/static/js/main.2ca3bfe6.js",
+    "index.html": "/kodecamp-tuts/index.html",
+    "main.7450c575.css.map": "/kodecamp-tuts/static/css/main.7450c575.css.map",
+    "main.2ca3bfe6.js.map": "/kodecamp-tuts/static/js/main.2ca3bfe6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7450c575.css",
+    "static/js/main.2ca3bfe6.js"
+  ]
+}
